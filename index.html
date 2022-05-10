@@ -15,8 +15,8 @@
     <header class="header">
         <nav class="main-menu">
             <ul>
-                <li class="menu-item"><a href="#">Sobre</a></li>
-                <li class="menu-item"><a href="#">Palestrantes</a></li>
+                <li class="menu-item"><a href="#panel-about">Sobre</a></li>
+                <li class="menu-item"><a href="#panel-speakers">Palestrantes</a></li>
             </ul>
         </nav>
         <div class="jumbotron">
@@ -25,11 +25,12 @@
                 <h2 class="subtitle">30MAIO | RIO</h2>
             </section>
             <section class="panel-subscribe">
-                <a href="#" class="button">Inscreva-se</a>
+                <a href="#panel-form" class="button">Inscreva-se</a>
             </section>
         </div>
     </header>  
-    <section class="panel panel-about"> 
+
+    <section id="panel-about" class="panel panel-about"> 
         <div class="container">
             <h2 class="title">Muito conteúdo: do frontend ao backend</h2>
             <h3 class="subtitle">30 de Maio de 2017 - na Cidade Maravilhosa</h3>
@@ -42,7 +43,7 @@
         </div>
     </section>
 
-    <section class="panel panel-speakers">
+    <section id="panel-speakers" class="panel panel-speakers">
         <div class="container">
             <div class="about-speakers">
                 <h2 class="title">PALESTRANTES</h2>
@@ -107,7 +108,7 @@
         </div>
     </section>
 
-    <section class="panel-form">
+    <section id="panel-form" class="panel-form">
         <h2 class="title">Seus dados</h2>
         <div>
             <form>
@@ -125,6 +126,8 @@
             </form>
         </div>
     </section>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/index.js"></script>
 
 </body>
 </html>
